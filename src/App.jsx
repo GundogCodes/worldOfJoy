@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { FaGlobe } from "react-icons/fa";
 import {
   Tabs,
   TabList,
@@ -30,7 +31,18 @@ function App() {
           position: "absolute",
         }}
       >
-        <h1>World Of Joy</h1>
+        <h1
+          style={{
+            fontWeight: "bolder",
+            color: "rgb(36,64,151)",
+            width: "100vw",
+          }}
+        >
+          <span>World</span> Of <span>Joy</span>
+        </h1>
+        <h2 style={{ fontWeight: "bolder", color: "rgb(188,61,47)" }}>
+          Child Care Centre
+        </h2>
       </nav>
       <Tabs
         position="absolute"
@@ -61,23 +73,30 @@ function App() {
         </TabList>
         <TabIndicator mt="-1.5px" height="2px" bg="blue.500" />
         <TabPanels>
-          <TabPanel backgroundColor={"orange"} width={"100%"} height={"200vh"}>
+          <TabPanel width={"100%"} height={"200vh"}>
             <HomePage />
           </TabPanel>
-          <TabPanel backgroundColor={"green"} width={"100%"} height={"100vh"}>
+          <TabPanel width={"100%"} height={"100vh"}>
             <ValuesPage />
           </TabPanel>
-          <TabPanel backgroundColor={"skyblue"} width={"100%"} height={"120vh"}>
+          <TabPanel width={"100%"} height={"120vh"}>
             <ContactPage />
           </TabPanel>
-          <TabPanel backgroundColor={"blue"} width={"100%"} height={"100vh"}>
+          <TabPanel width={"100%"} height={"100vh"}>
             <FindUsPage />
           </TabPanel>
 
           <footer
-            style={{ width: "100vw", height: "25vh", backgroundColor: "red" }}
+            style={{
+              width: "100vw",
+              height: "30vh",
+              backgroundColor: "rgb(242,242,242)",
+            }}
           >
-            Ima Footer
+            <section>Contact</section>
+            <section>About</section>
+            <section>Info</section>
+            <section>Website By</section>
           </footer>
         </TabPanels>
       </Tabs>

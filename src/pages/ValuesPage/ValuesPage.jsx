@@ -18,14 +18,19 @@ function ValuesPage() {
         allowToggle
       >
         <AccordionItem>
-          <h2>
+          <h3>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                borderBottomColor={"white"}
+              >
                 We Care
               </Box>
               <AccordionIcon />
             </AccordionButton>
-          </h2>
+          </h3>
           <AccordionPanel pb={4}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -35,14 +40,19 @@ function ValuesPage() {
         </AccordionItem>
 
         <AccordionItem>
-          <h2>
+          <h3>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                borderBottomColor={"white"}
+              >
                 Safety
               </Box>
               <AccordionIcon />
             </AccordionButton>
-          </h2>
+          </h3>
           <AccordionPanel pb={4}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

@@ -10,6 +10,16 @@
   background-position-y: -17vh;
   color: white;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+}
+span{
+  border-bottom: solid 5px green;
+}
+h2{
+  color:rgb(188,61,47) ;
 }
 .logo {
   height: 6em;
@@ -24,25 +34,21 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+section{
+  background-color: orange;
+  height: 90%;
+  width: 24%;
+}
+
+@media (max-width:900px) {
+  footer{
+    position: absolute;
+    top:160vh;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
