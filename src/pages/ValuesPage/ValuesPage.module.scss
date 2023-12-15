@@ -1,4 +1,149 @@
 .ValuesPage {
   background-color: white;
-  height: 100vh;
+  height: 240vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .section {
+    width: 90vw;
+    height: 60vh;
+
+    margin: 10px;
+    background-color: white;
+  }
+  #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    #imgSection {
+      width: 35%;
+      height: 90%;
+      display: flex;
+      justify-content: center;
+      #valuesImg1 {
+        transform: rotateY("90deg");
+      }
+    }
+    #section1Div {
+      display: flex;
+      align-items: center;
+      font-size: larger;
+      flex-direction: column;
+      justify-content: flex-;
+      background-color: rgb(220, 208, 255);
+      height: 100%;
+      width: 70vw;
+      align-self: flex-start;
+      h1 {
+        width: 95%;
+        display: flex;
+        height: 20%;
+        color: white;
+      }
+      p {
+        width: 95%;
+        height: 70%;
+        justify-self: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+  #section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 216, 230);
+    height: 80vh;
+    h1 {
+      width: 95%;
+      align-self: center;
+      border-bottom: solid 5px green;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .accordionSection {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .valuesImg {
+        width: 40%;
+        height: 80%;
+      }
+    }
+  }
+  #section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    #imgSection2 {
+      width: 35%;
+      height: 90%;
+      display: flex;
+      justify-content: center;
+      #valuesImg2 {
+        transform: rotateY("90deg");
+      }
+    }
+    #section2Div {
+      display: flex;
+      align-items: center;
+      font-size: larger;
+      flex-direction: column;
+      justify-content: flex-;
+      background-color: rgb(144, 212, 169);
+      height: 100%;
+      width: 70vw;
+      align-self: flex-start;
+      h1 {
+        width: 95%;
+        display: flex;
+        height: 20%;
+        color: white;
+      }
+      p {
+        width: 95%;
+        height: 70%;
+        justify-self: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+  #section4 {
+    height: 20vh;
+    margin-top: 5vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      border-bottom: none;
+      width: 90%;
+      color: rgb(144, 212, 169);
+      animation: jump 1s ease-in-out infinite;
+    }
+  }
+}
+@keyframes jump {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }

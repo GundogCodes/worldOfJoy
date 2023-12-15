@@ -21,7 +21,7 @@ function App() {
       <nav
         className="headerNav"
         style={{
-          height: "30vh",
+          height: "40vh",
           width: "100vw",
           display: "flex",
           justifyContent: "center",
@@ -31,31 +31,35 @@ function App() {
           position: "absolute",
         }}
       >
-        <h1
-          style={{
-            fontWeight: "bolder",
-            color: "rgb(36,64,151)",
-            width: "100vw",
-          }}
-        >
-          <span>World</span> Of <span>Joy</span>
-        </h1>
-        <h2 style={{ fontWeight: "bolder", color: "rgb(188,61,47)" }}>
-          Child Care Centre
-        </h2>
+        <div className="sidePics"></div>
+        <div className="center">
+          <h1
+            style={{
+              fontWeight: "bolder",
+              color: "rgb(36,64,151)",
+            }}
+          >
+            World Of Joy
+          </h1>
+          <h2 style={{ fontWeight: "bolder", color: "rgb(188,61,47)" }}>
+            Child Care Centre
+          </h2>
+        </div>
+        <div className="sidePics"></div>
       </nav>
       <Tabs
         position="absolute"
-        height={"3vh"}
-        top={"30vh"}
+        height={"5.5vh"}
+        top={"40vh"}
         left={"0"}
         variant="unstyled"
+        backgroundColor={"rgb(229, 75, 75)"}
       >
         <TabList width={"100vw"}>
-          <Tab>Home</Tab>
-          <Tab>Our Values</Tab>
-          <Tab>Contact</Tab>
-          <Tab position={"absolute"} right={"10px"}>
+          <Tab color={"white"}>Home</Tab>
+          <Tab color={"white"}>Our Values</Tab>
+          <Tab color={"white"}>Contact</Tab>
+          <Tab color={"white"} position={"absolute"} right={"10px"}>
             Find Us
           </Tab>
           {/* <p
@@ -73,16 +77,28 @@ function App() {
         </TabList>
         <TabIndicator mt="-1.5px" height="2px" bg="blue.500" />
         <TabPanels>
-          <TabPanel width={"100%"} height={"200vh"}>
+          <TabPanel
+            width={"100%"}
+            height={"250vh"}
+            backgroundColor={"rgb(173, 216, 230)"}
+          >
             <HomePage />
           </TabPanel>
-          <TabPanel width={"100%"} height={"100vh"}>
+          <TabPanel width={"100%"} height={"240vh"}>
             <ValuesPage />
           </TabPanel>
-          <TabPanel width={"100%"} height={"120vh"}>
+          <TabPanel
+            width={"100%"}
+            height={"120vh"}
+            backgroundColor={"rgb(144, 212, 169)"}
+          >
             <ContactPage />
           </TabPanel>
-          <TabPanel width={"100%"} height={"100vh"}>
+          <TabPanel
+            width={"100%"}
+            height={"100vh"}
+            backgroundColor={"rgb(255, 255, 204)"}
+          >
             <FindUsPage />
           </TabPanel>
 
@@ -90,7 +106,7 @@ function App() {
             style={{
               width: "100vw",
               height: "30vh",
-              backgroundColor: "rgb(242,242,242)",
+              backgroundColor: "orange",
             }}
           >
             <section>Contact</section>

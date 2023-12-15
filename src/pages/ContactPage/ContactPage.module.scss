@@ -2,6 +2,7 @@
   height: 120vh;
   display: flex;
   flex-direction: column;
+  background-color: rgb(144, 212, 169);
   h1 {
     width: 100%;
     display: flex;
@@ -12,7 +13,7 @@
     align-items: center;
     justify-content: space-evenly;
     form {
-      background-color: rgb(242, 242, 242);
+      background-color: white;
       width: 45vw;
       height: 45vw;
       display: flex;
@@ -43,7 +44,7 @@
         input {
           width: 100%;
           border-radius: 3px;
-          background-color: rgb(242, 242, 242);
+          background-color: rgb(230, 230, 230);
         }
       }
       #messageSection {
@@ -51,7 +52,7 @@
       }
     }
     aside {
-      background-color: rgb(242, 242, 242);
+      background-color: white;
       width: 45vw;
       height: 45vw;
       display: flex;
@@ -69,10 +70,11 @@
       }
       #hoursList {
         display: flex;
-        background-color: white;
         font-weight: bold;
         align-items: flex-start;
         flex-direction: column;
+        border: solid 1px greenyellow;
+        padding: 10px;
       }
     }
   }
@@ -83,7 +85,6 @@
     h1 {
     }
     .mainSection {
-      background-color: red;
       flex-direction: column-reverse;
       align-items: flex-start;
       margin-left: -10px;
