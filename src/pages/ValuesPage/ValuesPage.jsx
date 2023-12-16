@@ -53,27 +53,6 @@ function ValuesPage() {
                     textAlign="left"
                     borderBottomColor={"white"}
                   >
-                    Individualized Learning
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h3>
-              <AccordionPanel pb={4}>
-                We recognize and celebrate the uniqueness of each child. Our
-                tailored approach to learning ensures that every child's
-                interests, strengths, and areas of development are taken into
-                account, fostering a love for learning.
-              </AccordionPanel>
-            </AccordionItem>
-            <AccordionItem>
-              <h3>
-                <AccordionButton>
-                  <Box
-                    as="span"
-                    flex="1"
-                    textAlign="left"
-                    borderBottomColor={"white"}
-                  >
                     Safety First
                   </Box>
                   <AccordionIcon />
@@ -86,6 +65,28 @@ function ValuesPage() {
                 care.
               </AccordionPanel>
             </AccordionItem>
+            <AccordionItem>
+              <h3>
+                <AccordionButton>
+                  <Box
+                    as="span"
+                    flex="1"
+                    textAlign="left"
+                    borderBottomColor={"white"}
+                  >
+                    Individualized Learning
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h3>
+              <AccordionPanel pb={4}>
+                We recognize and celebrate the uniqueness of each child. Our
+                tailored approach to learning ensures that every child's
+                interests, strengths, and areas of development are taken into
+                account, fostering a love for learning.
+              </AccordionPanel>
+            </AccordionItem>
+
             <AccordionItem>
               <h3>
                 <AccordionButton>

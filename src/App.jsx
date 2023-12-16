@@ -79,7 +79,7 @@ function App() {
         <TabPanels>
           <TabPanel
             width={"100%"}
-            height={"250vh"}
+            height={"300vh"}
             backgroundColor={"rgb(173, 216, 230)"}
           >
             <HomePage />
@@ -109,10 +109,24 @@ function App() {
               backgroundColor: "orange",
             }}
           >
-            <section>Contact</section>
-            <section>About</section>
-            <section>Info</section>
-            <section>Website By</section>
+            <section>
+              Contact
+              <p>Phone</p>
+              <p>Email</p>
+              <p>Address</p>
+            </section>
+            <section>
+              Info
+              <p>Phone</p>
+              <p>Email</p>
+              <p>Address</p>
+            </section>
+            <section>
+              Website By
+              <p>Phone</p>
+              <p>Email</p>
+              <p>Address</p>
+            </section>
           </footer>
         </TabPanels>
       </Tabs>

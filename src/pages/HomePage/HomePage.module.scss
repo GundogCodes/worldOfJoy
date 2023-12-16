@@ -1,4 +1,44 @@
 .HomePage {
   background-color: white;
-  height: 250vh;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .homeSections {
+    height: 70vh;
+    width: 90%;
+
+    margin-top: 10px;
+  }
+  #homeSection1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      height: 20%;
+    }
+    h6 {
+      height: 10%;
+    }
+    #homePic1 {
+      height: 70%;
+      width: 90%;
+    }
+  }
+  #homeSection2 {
+    background-color: yellow;
+    height: 100vh;
+  }
+  #homeSection3 {
+    background-color: green;
+  }
+  #homeSection4 {
+    background-color: pink;
+    height: 40vh;
+  }
 }

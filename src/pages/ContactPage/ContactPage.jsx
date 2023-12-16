@@ -10,9 +10,9 @@ function ContactPage() {
         <form>
           <h3>Message us now!</h3>
           <div className={styles.inputSection}>
-            <label>Name</label>
+            <label>Your Name</label>
             <input></input>
-            <label>Email</label>
+            <label>Your Email</label>
             <input></input>
             <label>Message</label>
             <input id={styles.messageSection}></input>
@@ -61,7 +61,7 @@ function ContactPage() {
             <a href="tel:+7806161515">(780) 616-1515</a>
           </h4>
           <h3>Email: </h3>
-          <h4>gunisharma@gmail.com</h4>
+          <a href="mailto:gunishsharma@gmail.com">gunishsharma@gmail.com</a>
         </aside>
       </div>
     </div>
