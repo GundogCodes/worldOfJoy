@@ -1,6 +1,6 @@
 .HomePage {
   background-color: white;
-  height: 300vh;
+  height: 270vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,12 +33,25 @@
   #homeSection2 {
     background-color: yellow;
     height: 100vh;
+    .Carousel {
+      background-color: red;
+      height: 100%;
+      .CarouselItem {
+        position: relative;
+        background-color: violet;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .caption {
+          background-color: orange;
+          width: 100%;
+        }
+      }
+    }
   }
   #homeSection3 {
-    background-color: green;
-  }
-  #homeSection4 {
     background-color: pink;
-    height: 40vh;
   }
 }

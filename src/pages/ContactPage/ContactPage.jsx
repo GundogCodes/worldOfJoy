@@ -20,7 +20,11 @@ function ContactPage() {
             {messageSent ? <h3>Sent!</h3> : <h3></h3>}
           </div>
         </form>
-        <Text fontSize={"30px"} fontWeight={"bolder"}>
+        <Text
+          width={{ base: "90vw", md: "5vw" }}
+          fontSize={"30px"}
+          fontWeight={"bolder"}
+        >
           Or
         </Text>
         <aside>

@@ -1,4 +1,57 @@
 .FindUsPage {
   background-color: rgb(255, 255, 204);
   height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    margin: 10px;
+    display: flex;
+    width: 95%;
+  }
+  main {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    .map {
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    .infoDiv {
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      background-color: white;
+      width: 600px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      label {
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .FindUsPage {
+    align-items: flex-start;
+    height: 130vh;
+    h1 {
+    }
+    main {
+      height: 100%;
+
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      .infoDiv {
+        margin-top: 5vh;
+        align-items: flex-start;
+        width: 90vw;
+        label {
+        }
+      }
+    }
+  }
 }

@@ -83,6 +83,8 @@
 
 @media (max-width: 900px) {
   .ContactPage {
+    height: 200vh;
+    width: 100%;
     h1 {
     }
     .mainSection {
@@ -105,8 +107,9 @@
       }
       aside {
         width: 95vw;
-        height: 80vh;
+        height: 85vh;
         h3 {
+          background-color: pink;
         }
         h4,
         h3 {

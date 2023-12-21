@@ -79,7 +79,7 @@ function App() {
         <TabPanels>
           <TabPanel
             width={"100%"}
-            height={"300vh"}
+            height={"270vh"}
             backgroundColor={"rgb(173, 216, 230)"}
           >
             <HomePage />
@@ -106,26 +106,46 @@ function App() {
             style={{
               width: "100vw",
               height: "30vh",
-              backgroundColor: "orange",
+              backgroundColor: "rgb(242,242,242)",
             }}
           >
             <section>
-              Contact
-              <p>Phone</p>
-              <p>Email</p>
-              <p>Address</p>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Contact</h1>
+              <div className="pDiv">
+                <p>
+                  Phone
+                  <br />
+                  <a href="tel:+7806161515">(780) 616-1515</a>
+                </p>
+
+                <p>
+                  Email
+                  <br />
+                  <a href="mailto:gunishsharma@gmail.com">
+                    gunishsharma@gmail.com
+                  </a>
+                </p>
+                <p>
+                  Address:
+                  <br /> 7225 Argyll Rd NW, Edmonton, AB T6C 4J2
+                </p>
+              </div>
             </section>
             <section>
-              Info
-              <p>Phone</p>
-              <p>Email</p>
-              <p>Address</p>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Info</h1>
+              <div className="pDiv">
+                <p>Phone</p>
+                <p>Email</p>
+                <p>Address</p>
+              </div>
             </section>
             <section>
-              Website By
-              <p>Phone</p>
-              <p>Email</p>
-              <p>Address</p>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Website By</h1>
+              <div className="pDiv">
+                <p>Phone</p>
+                <p>Email</p>
+                <p>Address:</p>
+              </div>
             </section>
           </footer>
         </TabPanels>

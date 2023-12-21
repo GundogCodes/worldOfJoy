@@ -53,14 +53,25 @@ footer{
 }
 
 section{
-  background-color: pink;
+  background-color: white;
   height: 90%;
   width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.pDiv{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 @media (max-width:900px) {
   footer{
     position: absolute;
-    top:160vh;
+    top:180vh;
   }
 }
