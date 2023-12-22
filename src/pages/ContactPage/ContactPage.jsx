@@ -8,7 +8,7 @@ function ContactPage() {
       <h1>Contact Us</h1>
       <div className={styles.mainSection}>
         <form
-          action="https://formsubmit.co/4d7a4a84c1827b8d4fffe9894836f4cb"
+          action="https://formsubmit.co/worldofjoyccc@gmail.com"
           method="POST"
         >
           <h3>Message us now!</h3>
