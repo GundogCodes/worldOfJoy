@@ -1,20 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import { FaGlobe } from "react-icons/fa";
 import {
-  Tabs,
-  TabList,
-  TabPanels,
   Tab,
-  TabPanel,
   TabIndicator,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
 } from "@chakra-ui/react";
-import HomePage from "./pages/HomePage/HomePage";
-import ValuesPage from "./pages/ValuesPage/ValuesPage";
+import "./App.css";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import FindUsPage from "./pages/FindUsPage/FindUsPage";
+import HomePage from "./pages/HomePage/HomePage";
+import ValuesPage from "./pages/ValuesPage/ValuesPage";
 function App() {
   return (
     <div children="App">
@@ -110,7 +106,7 @@ function App() {
             }}
           >
             <section>
-              <h1 style={{ fontSize: "20px", width: "95%" }}>Contact</h1>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Get in Touch</h1>
               <div className="pDiv">
                 <p>
                   Phone
@@ -121,30 +117,31 @@ function App() {
                 <p>
                   Email
                   <br />
-                  <a href="mailto:gunishsharma@gmail.com">
-                    gunishsharma@gmail.com
+                  <a href="mailto:worldofjoyccc@gmail.com">
+                    worldofjoyccc@gmail.com
                   </a>
                 </p>
+              </div>
+            </section>
+            <section>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Helpful Links</h1>
+              <div className="pDiv">
                 <p>
-                  Address:
-                  <br /> 7225 Argyll Rd NW, Edmonton, AB T6C 4J2
+                  Location
+                  <br />
+                  7225 Argyll Rd NW, Edmonton, AB T6C 4J2
                 </p>
+                <a href="https://applychildcaresubsidy.alberta.ca/">
+                  {"->"} Subsidy Eligibility {"<-"}
+                </a>
               </div>
             </section>
             <section>
-              <h1 style={{ fontSize: "20px", width: "95%" }}>Info</h1>
+              <h1 style={{ fontSize: "20px", width: "95%" }}>Hours</h1>
               <div className="pDiv">
-                <p>Phone</p>
-                <p>Email</p>
-                <p>Address</p>
-              </div>
-            </section>
-            <section>
-              <h1 style={{ fontSize: "20px", width: "95%" }}>Website By</h1>
-              <div className="pDiv">
-                <p>Phone</p>
-                <p>Email</p>
-                <p>Address:</p>
+                <p>Mondays to Friday --- 6:30 to 5:30pm</p>
+                <p>Saturday & Sunday --- Closed</p>
+                <p>Website by Innovation Software</p>
               </div>
             </section>
           </footer>

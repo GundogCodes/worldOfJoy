@@ -141,14 +141,14 @@ function ValuesPage() {
           />
         </div>
         <div id={styles.section2Div}>
-          <h1>Another section</h1>
+          <h1>Curious Minds Flourish</h1>
           <p>
-            We believe in fostering a holistic approach to early childhood
-            development. Our dedicated team of experienced educators and
-            caregivers is devoted to creating an atmosphere that promotes not
-            only academic growth but also emotional, social, and physical
-            well-being. We understand the importance of these formative years
-            and strive to make each day an enriching experience for your child.
+            At World of Joy Child Care Centre, we believe in nurturing curiosity
+            and fostering a love for exploration. Our engaging environment
+            encourages children to ask questions, discover the world around
+            them, and embrace the joy of learning. With dedicated educators and
+            a curriculum designed to spark creativity, we empower young minds to
+            thrive and reach their full potential.
           </p>
         </div>
       </div>

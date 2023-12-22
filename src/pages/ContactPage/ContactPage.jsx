@@ -7,16 +7,36 @@ function ContactPage() {
     <div className={styles.ContactPage}>
       <h1>Contact Us</h1>
       <div className={styles.mainSection}>
-        <form>
+        <form
+          action="https://formsubmit.co/4d7a4a84c1827b8d4fffe9894836f4cb"
+          method="POST"
+        >
           <h3>Message us now!</h3>
           <div className={styles.inputSection}>
             <label>Your Name</label>
-            <input></input>
+            <input type="text" name="name" required></input>
             <label>Your Email</label>
-            <input></input>
+            <input type="text" name="email" required></input>
             <label>Message</label>
-            <input id={styles.messageSection}></input>
-            <Button marginTop={"5px"}>Submit</Button>
+            <input
+              id={styles.messageSection}
+              type="text"
+              name="message"
+              required
+            ></input>
+            <button
+              onClick={() => {
+                setMessageSent(true);
+              }}
+              style={{
+                marginTop: "10px",
+                padding: "5px",
+                boxShadow:
+                  "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset",
+              }}
+            >
+              Submit
+            </button>
             {messageSent ? <h3>Sent!</h3> : <h3></h3>}
           </div>
         </form>
@@ -65,7 +85,7 @@ function ContactPage() {
             <a href="tel:+7806161515">(780) 616-1515</a>
           </h4>
           <h3>Email: </h3>
-          <a href="mailto:gunishsharma@gmail.com">gunishsharma@gmail.com</a>
+          <a href="mailto:worldofjoyccc@gmail.com">worldofjoyccc@gmail.com</a>
         </aside>
       </div>
     </div>

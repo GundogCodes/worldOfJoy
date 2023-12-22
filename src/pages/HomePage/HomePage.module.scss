@@ -31,27 +31,63 @@
     }
   }
   #homeSection2 {
-    background-color: yellow;
     height: 100vh;
+    width: 100%;
+    background-color: beige;
     .Carousel {
-      background-color: red;
       height: 100%;
       .CarouselItem {
         position: relative;
-        background-color: violet;
-        height: 20vh;
+        height: 85vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        .caption {
-          background-color: orange;
+
+        .carouselImageDiv {
+          display: flex;
+
           width: 100%;
+          justify-content: space-evenly;
+          #carouselImages {
+            width: 45%;
+            height: 500px;
+            animation: fadeInAnimation 1s;
+          }
+          aside {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 45%;
+            flex-direction: column;
+          }
+        }
+        .caption {
+          height: 100%;
+
+          width: 100%;
+          display: flex;
+          align-items: center;
         }
       }
     }
   }
   #homeSection3 {
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/743/451/original/earth-doodle-continuous-line-freehand-drawing-free-png.png);
+    background-size: cover;
+    color: white;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
