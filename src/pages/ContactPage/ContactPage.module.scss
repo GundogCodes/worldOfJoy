@@ -85,12 +85,13 @@
   .ContactPage {
     height: 200vh;
     width: 100%;
+    background-color: rgb(144, 212, 169);
+
     h1 {
     }
     .mainSection {
       flex-direction: column-reverse;
       align-items: flex-start;
-      margin-left: -20px;
       background-color: rgb(144, 212, 169);
       width: 100vw;
       form {
@@ -99,7 +100,6 @@
         height: 80vh;
         background-color: rgb(144, 212, 169);
         h3 {
-          background-color: red;
           width: 100%;
           display: flex;
           justify-content: center;
@@ -129,9 +129,5 @@
         }
       }
     }
-  }
-  .contactFooter {
-    top: 180vh;
-    left: 0px;
   }
 }

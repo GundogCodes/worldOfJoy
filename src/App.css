@@ -4,10 +4,9 @@
   padding: 2rem;
   text-align: center;
   font-family: 'Comic Sans MS', cursive;
-
+  
 }
 .headerNav{
-
   color: white;
   font-size: 30px;
   display: flex;
@@ -20,6 +19,7 @@ h1{
 span{
 }
 h2{
+  max-width: 1280px;
   color:rgb(188,61,47) ;
   padding-top: 10px;
   border-radius: 6px;
@@ -36,31 +36,33 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
 }
 .sidePics{
   background-image: url(https://i.gifer.com/S0nX.gif);
-    background-size: cover;
-    width: 30%;
-    height: 100%;
-    background-position-y:-1vh ;
+  background-size: cover;
+  width: 30%;
+  height: 100%;
+  background-position-y:-1vh ;
 }
 
 footer{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  max-width: 1280px;
 }
 
 section{
+  max-width: 1280px;
   background-color: white;
   height: 90%;
   width: 31%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
+  
+  
 }
 .pDiv{
   height: 90%;
@@ -68,7 +70,8 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
+  max-width: 1280px;
+  
 }
 
 @media (max-width:900px) {

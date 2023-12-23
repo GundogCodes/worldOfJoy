@@ -47,6 +47,7 @@ function ContactPage() {
           alignItems={"center"}
           fontSize={"30px"}
           fontWeight={"bolder"}
+          display={{ base: "none" }}
         >
           Or
         </Text>
