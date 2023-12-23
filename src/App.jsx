@@ -15,8 +15,9 @@ import { useState } from "react";
 function App() {
   const [footerHeight, setFooterHeight] = useState(null);
   const screenWidth = window.innerWidth;
+  console.log(screenWidth);
   function handlePageClick(e) {
-    console.log("E: ", e);
+    console.log("E: ", e.target.innerText);
   }
   return (
     <div children="App">
@@ -115,7 +116,7 @@ function App() {
             <FindUsPage />
           </TabPanel>
 
-          {/* <footer
+          <footer
             style={{
               width: "100vw",
               height: "30vh",
@@ -161,7 +162,7 @@ function App() {
                 <p>Website by Innovation Software</p>
               </div>
             </section>
-          </footer> */}
+          </footer>
         </TabPanels>
       </Tabs>
     </div>
