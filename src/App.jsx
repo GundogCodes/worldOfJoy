@@ -15,9 +15,20 @@ import { useState } from "react";
 function App() {
   const [footerHeight, setFooterHeight] = useState(null);
   const screenWidth = window.innerWidth;
-  console.log(screenWidth);
   function handlePageClick(e) {
+    const page = e.target.innerText;
     console.log("E: ", e.target.innerText);
+    if (screenWidth <= 900) {
+      if (page === "Home") {
+        setFooterHeight();
+      } else if (page === "Our Values") {
+        setFooterHeight();
+      } else if (page === "Contact") {
+        setFooterHeight();
+      } else if (page === "Find Us") {
+        setFooterHeight();
+      }
+    }
   }
   return (
     <div children="App">
