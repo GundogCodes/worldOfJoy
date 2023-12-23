@@ -98,7 +98,7 @@ function App() {
             <FindUsPage />
           </TabPanel>
 
-          <footer
+          {/* <footer
             style={{
               width: "100vw",
               height: "30vh",
@@ -144,7 +144,7 @@ function App() {
                 <p>Website by Innovation Software</p>
               </div>
             </section>
-          </footer>
+          </footer> */}
         </TabPanels>
       </Tabs>
     </div>

@@ -43,6 +43,7 @@ function ValuesPage() {
             height={"80%"}
             allowToggle
             backgroundColor={"white"}
+            className={styles.accordion}
           >
             <AccordionItem>
               <h3>
@@ -155,6 +156,53 @@ function ValuesPage() {
       <div id={styles.section4}>
         <h1>Contact us now!</h1>
       </div>
+      <footer
+        style={{
+          width: "100vw",
+          height: "30vh",
+          backgroundColor: "rgb(242,242,242)",
+        }}
+      >
+        <section>
+          <h1 style={{ fontSize: "20px", width: "95%" }}>Get in Touch</h1>
+          <div className="pDiv">
+            <p>
+              Phone
+              <br />
+              <a href="tel:+7806161515">(780) 616-1515</a>
+            </p>
+
+            <p>
+              Email
+              <br />
+              <a href="mailto:worldofjoyccc@gmail.com">
+                worldofjoyccc@gmail.com
+              </a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h1 style={{ fontSize: "20px", width: "95%" }}>Helpful Links</h1>
+          <div className="pDiv">
+            <p>
+              Location
+              <br />
+              7225 Argyll Rd NW, Edmonton, AB T6C 4J2
+            </p>
+            <a href="https://applychildcaresubsidy.alberta.ca/">
+              {"->"} Subsidy Eligibility {"<-"}
+            </a>
+          </div>
+        </section>
+        <section>
+          <h1 style={{ fontSize: "20px", width: "95%" }}>Hours</h1>
+          <div className="pDiv">
+            <p>Mondays to Friday --- 6:30 to 5:30pm</p>
+            <p>Saturday & Sunday --- Closed</p>
+            <p>Website by Innovation Software</p>
+          </div>
+        </section>
+      </footer>
     </div>
   );
 }
