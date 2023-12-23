@@ -11,7 +11,7 @@ function FindUsPage() {
     if (screenWidth <= 900) {
       setMapWidth("350");
       setMapHeight("300");
-    } else {
+    } else if (screenWidth > 900) {
       setMapWidth("600");
       setMapHeight("450");
     }

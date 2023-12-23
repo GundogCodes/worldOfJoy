@@ -90,13 +90,23 @@
     .mainSection {
       flex-direction: column-reverse;
       align-items: flex-start;
-      margin-left: -10px;
+      margin-left: -20px;
+      background-color: rgb(144, 212, 169);
+      width: 100vw;
       form {
+        margin-left: 15px;
         width: 95vw;
         height: 80vh;
+        background-color: rgb(144, 212, 169);
         h3 {
+          background-color: red;
+          width: 100%;
+          display: flex;
+          justify-content: center;
         }
         .inputSection {
+          width: 95vw;
+
           label {
           }
           input {
@@ -109,14 +119,19 @@
         width: 95vw;
         height: 85vh;
         h3 {
-          background-color: pink;
+          width: 95vw;
         }
         h4,
         h3 {
         }
         #hoursList {
+          width: 95vw;
         }
       }
     }
+  }
+  .contactFooter {
+    top: 180vh;
+    left: 0px;
   }
 }

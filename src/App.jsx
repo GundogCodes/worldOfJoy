@@ -11,7 +11,13 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import FindUsPage from "./pages/FindUsPage/FindUsPage";
 import HomePage from "./pages/HomePage/HomePage";
 import ValuesPage from "./pages/ValuesPage/ValuesPage";
+import { useState } from "react";
 function App() {
+  const [footerHeight, setFooterHeight] = useState(null);
+  const screenWidth = window.innerWidth;
+  function handlePageClick(e) {
+    console.log("E: ", e);
+  }
   return (
     <div children="App">
       <nav
@@ -52,10 +58,21 @@ function App() {
         backgroundColor={"rgb(229, 75, 75)"}
       >
         <TabList width={"100vw"}>
-          <Tab color={"white"}>Home</Tab>
-          <Tab color={"white"}>Our Values</Tab>
-          <Tab color={"white"}>Contact</Tab>
-          <Tab color={"white"} position={"absolute"} right={"10px"}>
+          <Tab onClick={handlePageClick} color={"white"}>
+            Home
+          </Tab>
+          <Tab onClick={handlePageClick} color={"white"}>
+            Our Values
+          </Tab>
+          <Tab onClick={handlePageClick} color={"white"}>
+            Contact
+          </Tab>
+          <Tab
+            onClick={handlePageClick}
+            color={"white"}
+            position={"absolute"}
+            right={"10px"}
+          >
             Find Us
           </Tab>
           {/* <p

@@ -83,6 +83,58 @@
   }
 }
 
+@media (max-width: 900px) {
+  .HomePage {
+    .homeSections {
+      height: 80vh;
+    }
+    #homeSection1 {
+      justify-content: space-around;
+      h1 {
+        font-size: 30px;
+      }
+      h6 {
+        margin-top: -50px;
+      }
+      #homePic1 {
+      }
+    }
+    .Carousel {
+      flex-direction: column;
+      justify-content: center;
+      height: 70vh;
+      background-color: green;
+      align-items: center;
+      .CarouselItem {
+        flex-direction: column;
+        width: 90vw;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        .carouselImageDiv {
+          height: 50vh;
+          width: 90vw;
+          background-color: blue;
+          flex-direction: column;
+          align-items: center;
+          #carouselImages {
+            width: 100vw;
+          }
+          aside {
+          }
+        }
+        .caption {
+          height: 10vw;
+          width: 10vw;
+        }
+      }
+    }
+    #homeSection3 {
+    }
+  }
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;

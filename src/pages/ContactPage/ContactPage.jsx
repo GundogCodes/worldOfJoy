@@ -41,7 +41,10 @@ function ContactPage() {
           </div>
         </form>
         <Text
-          width={{ base: "90vw", md: "5vw" }}
+          width={{ base: "100vw", md: "5vw" }}
+          height={{ base: "5vh", md: "5vw" }}
+          justifyContent={"center"}
+          alignItems={"center"}
           fontSize={"30px"}
           fontWeight={"bolder"}
         >
