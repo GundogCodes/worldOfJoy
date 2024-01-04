@@ -23,7 +23,7 @@ function HomePage() {
           little ones to thrive.
         </h6>
         <img
-          id={styles.carouselImages}
+          id={styles.homePic1}
           src="https://todaysparent.mblycdn.com/tp/resized/2017/02/767x431/GettyImages-636672368.jpg"
         />
       </div>

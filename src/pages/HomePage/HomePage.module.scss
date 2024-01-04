@@ -20,21 +20,22 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
-      height: 20%;
+      height: 100%;
     }
     h6 {
       height: 10%;
     }
     #homePic1 {
-      height: 70%;
-      width: 90%;
+      margin-top: 5vh;
+      height: 50vh;
+      width: 80vw;
     }
   }
 
   .Carousel {
     height: 75vh;
-    background-color: beige;
+    background-color: rgb(182, 217, 230);
+    color: white;
     .CarouselItem {
       position: relative;
       height: 65vh;
