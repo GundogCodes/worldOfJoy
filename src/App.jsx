@@ -114,14 +114,14 @@ function App() {
           </TabPanel>
           <TabPanel
             width={"100%"}
-            height={"120vh"}
+            height={"100vh"}
             backgroundColor={"rgb(144, 212, 169)"}
           >
             <ContactPage />
           </TabPanel>
           <TabPanel
             width={"100%"}
-            height={"100vh"}
+            height={"80vh"}
             backgroundColor={"rgb(255, 255, 204)"}
           >
             <FindUsPage />

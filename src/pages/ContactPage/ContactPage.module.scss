@@ -1,8 +1,9 @@
 .ContactPage {
-  height: 120vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: rgb(144, 212, 169);
+  justify-content: center;
   h1 {
     width: 100%;
     display: flex;
