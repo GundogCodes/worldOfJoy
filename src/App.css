@@ -38,8 +38,9 @@ h2{
   
 }
 .sidePics{
-  background-image: url(https://i.gifer.com/S0nX.gif);
+  background-image: url('/photos/earth.png');
   background-size: cover;
+  background-color: white;
   width: 30%;
   height: 100%;
   background-position-y:-1vh ;
