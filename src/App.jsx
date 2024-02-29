@@ -35,7 +35,7 @@ function App() {
       <nav
         className="headerNav"
         style={{
-          height: "40vh",
+          height: "30vh",
           width: "100vw",
           display: "flex",
           justifyContent: "center",
@@ -64,7 +64,7 @@ function App() {
       <Tabs
         position="absolute"
         height={"5.5vh"}
-        top={"40vh"}
+        top={"30vh"}
         left={"0"}
         variant="unstyled"
         backgroundColor={"rgb(229, 75, 75)"}
